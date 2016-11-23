@@ -12,13 +12,18 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.assetid: 86cd5382-8b41-45db-a4f0-16265ae22657
 caps.latest.revision: 3
-author: Brendunsms.author: brendunsmanager: angrobe
+author: Brenduns
+ms.author: brenduns
+manager: angrobe
 ---
-# Peer Cache for Configuration Manager clients*Applies to: System Center Configuration Manager (Current Branch)*
+# Peer Cache for Configuration Manager clients
+
+*Applies to: System Center Configuration Manager (Current Branch)*
+
 Beginning with System Center Configuration Manager version 1610, you can use **Peer Cache** to help manage deployment of content to clients in remote locations. Peer Cache is a built-in Configuration Manager solution for clients to share content with other clients directly from their local cache.   
  - 	You use client settings to enable clients to use Peer Cache.
  - 	To share content, Peer Cache clients must both be members of the current boundary group of the client seeking the content. Peer Cache clients in neighbor boundary groups are not included with the pool of available content source locations when a client uses fallback to seek content from a neighbor boundary group. For more information about current and neighbor boundary groups, see [Boundary groups](/sccm/core/servers/deploy/configure/define-site-boundaries-and-boundary-groups##a-namebkmkboundarygroupsa-boundary-groups).
- -	Peer Cache does not replace the use of other solutions like BracnchCache but instead works side-by-side to give you more options to extend traditional content deployment solutions like distribution points.
+ -	Peer Cache does not replace the use of other solutions like BranchCache but instead works side-by-side to give you more options to extend traditional content deployment solutions like distribution points.
 
 After you deploy client settings that enable Peer Cache to a collection, members of that collection can act as a peer content source for other clients in the same boundary group:
  -	A client that operates as a peer content source will submit a list of available content it has cached to its management point.
