@@ -13,10 +13,15 @@ ms.topic: article
 ms.assetid: ec976930-7467-4d3c-b33c-991bf408a74a
 caps.latest.revision: 10
 caps.handback.revision: 0
-author: Brendunsms.author: brendunsmanager: angrobe
+author: Brenduns
+ms.author: brenduns
+manager: angrobe
 
 ---
-# Prerequisites for migration in System Center Configuration Manager*Applies to: System Center Configuration Manager (Current Branch)*
+# Prerequisites for migration in System Center Configuration Manager
+
+*Applies to: System Center Configuration Manager (Current Branch)*
+
 To migrate from a supported source hierarchy, you must have access to each applicable Configuration Manager source site, and permissions within the System Center Configuration Manager destination site to configure and run migration operations.  
 
  Use the information in the following sections to help you understand the versions of Configuration Manager that are supported for migration, and the required configurations.  
@@ -61,7 +66,7 @@ To migrate from a supported source hierarchy, you must have access to each appli
 When you migrate data from a System Center 2012 Configuration Manager or System Center Configuration Manager hierarchy, there are no source site language limitations. Objects in the source site database are already in a language neutral format.  
 
 ##  <a name="BKMK_Required_Configurations"></a> Required configurations for migration  
-The followingare required configurations for using migration and migration operations:  
+The following are required configurations for using migration and migration operations:  
 
 -   **To configure, run, and monitor migration in the Configuration Manager console:**  
 
